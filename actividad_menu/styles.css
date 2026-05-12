@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    /*estilos tamaño*/
+    width: 100%;
+    height: 100px;
+
+    /*estilo flex posicionamiento*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 300px;
+    
+    /*estilos fondo y color*/
+    background-color: black;
+    color: white;
+}
+
+.navbar_logo{
+    display: flex;
+    flex-direction: row;
+    color: rgb(178, 237, 105);
+    font-size: 24px;
+    font-weight: bold;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar_logo--img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.navbar_opciones{
+    /*posicionamiento estilos*/
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    /*estilos fuente*/
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar_opciones a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar_login{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.navbar_login img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+
+.navbar_login a {
+    text-decoration: none;
+    color: white;
+}
